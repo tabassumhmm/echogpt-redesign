@@ -1,9 +1,13 @@
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
+import Features from "@/components/landing/Features";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-slate-950">
-      <h1 className="text-4xl font-bold text-white">
-        EchoGPT Redesign — coming soon 🚀
-      </h1>
+    <main>
+      <Navbar />
+      <Hero />
+      <Features />
     </main>
   );
 }
